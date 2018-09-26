@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+body {
+	margin-top: 85px;
+	font-size: 1rem;
+	background-color: dimgrey;
+}
+.tarjeta {
+	border: 3px solid #ffff11;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	width: 120px;
+	height: 150px;
+	border-radius: 10px;
+	background-color: #000;
+	box-shadow: 8px 8px 7px #292929;
+	color: #ffffff;
+}
+.tarjeta > div {
+	width: 120px;
+	height: 80px;
+	background-image: url(empanada.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p > span {
+	color: #ffee0d;
+	font-size: 1.5rem;
+}
+p {
+	margin: 2px;
+	text-align: center;
+}
+.titulo {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	color: #ffee0d;
+	background-color: #000;
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+.empanadas,
+.registro {
+	display: inline-block;
+	padding: 20px;
+}
+
+.empanadas {
+	width: 68%;
+	scroll-behavior: auto;
+}
+.registro {
+	position: fixed;
+	margin-top: 25px;
+	width: 25%;
+	background-color: #505050;
+	border-radius: 10px;
+	/* box-shadow: 0px 0px 10px 2px rgb(5, 5, 5), 0px 0px 10px 5px rgb(255, 251, 0); */
+	box-shadow: 0px 0px 10px 2px rgb(5, 5, 5);
+}
+.registro > div {
+	font-size: 1.3rem !important;
+	color: #ffffff;
+}
+
+#total {
+	font-size: 10rem;
+}
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+input {
+	border-radius: 8px;
+	padding: 10px 20px;
+	margin: 5px;
+	border: 1px solid #ffee0d;
+}
+
+.btn {
+	background-color: #000;
+	color: #ffee0d;
+}
+.btn:hover {
+	background: #ffee0d;
+	color: #000;
+}
+
+.txt {
+	width: 60px;
+	padding: 8px 20px;
+	text-align: justify;
+	font-size: 1.3rem;
+	text-decoration: #000;
+}
