@@ -36,6 +36,9 @@ p {
 	margin: 2px;
 	text-align: center;
 }
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+}
 .titulo {
 	position: fixed;
 	top: 0px;

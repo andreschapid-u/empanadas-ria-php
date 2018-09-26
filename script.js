@@ -20,6 +20,7 @@ function imprimirTarjetas(datos) {
 		agregarTarjeta(datos.empanadas[i].fecha, datos.empanadas[i].cantidad);
     }
     document.querySelector("#total").innerHTML = datos.total;
+    document.querySelector("#fechaModf").innerHTML = datos.fechaModificacion;
 }
 
 function crearTarjeta(fecha, cantidad) {
